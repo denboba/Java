@@ -1,95 +1,36 @@
-# Java
+Copy code
+# Java Labs
 
-# Problem 1
+Welcome to the Java Labs repository! This repository contains a collection of Java lab exercises and projects to help you learn and practice Java programming concepts. Whether you're a beginner looking to get started with Java or an experienced developer wanting to refine your skills, these labs can help you achieve your goals.
 
-Enter the program below (the Test class) into a file named Prob1.java using the integrated environment NetBeans / Eclipse.
+## Table of Contents
 
-Compile and run the following program:
+- [Chapter 1: Introduction to Java](#chapter-1-introduction-to-java)
+- [Chapter 2: Using Java Classes](#chapter-2-using-java-classes)
+- [Chapter 3: Classes and Objects](#chapter-3-classes-and-objects)
+- [Chapter 4: Inheritance](#chapter-4-inheritance)
+- [Chapter 5: Exceptions and Initialization Blocks](#chapter-5-exceptions-and-initialization-blocks)
+- [Chapter 6: Abstract Classes and Interfaces](#chapter-6-abstract-classes-and-interfaces)
+- [Chapter 7: Collections](#chapter-7-collections)
+- [Chapter 8: Inner Classes](#chapter-8-inner-classes)
+- [Chapter 9: Swing 1](#chapter-9-swing-1)
+- [Chapter 10: Generics, Static Binding vs. Dynamic Binding](#chapter-10-generics-static-binding-vs-dynamic-binding)
+- [Chapter 11: Swing 2](#chapter-11-swing-2)
+- [Chapter 12: Design Patterns](#chapter-12-design-patterns)
+- [Chapter 13: Design Patterns, Generics, and Streams](#chapter-13-design-patterns-generics-and-streams)
+- [Chapter 14: Generics](#chapter-14-generics)
 
+## How to Use
 
+Each chapter folder contains a `README.md` file with specific instructions and exercises. You can clone this repository to your local machine and work on the chapters. Remember to create a branch for each chapter or exercise to keep your work organized.
 
-class Test {
-    public static void main(String args[]) {
-        System.out.println("Test Java");
-    }
-}
+git clone https://github.com/abdulke96/java.git
 
+git checkout -b chapter1
+Contributing
+Contributions are welcome! If you have additional chapters or improvements to existing chapters, please open an issue or submit a pull request.
 
-Add the 'public' attribute before the 'class' keyword, recompile, and execute the program. Solve the problem that arises!
+License
+This repository is licensed under the MIT License. See LICENSE for more details.
 
-
-
-IMPORTANT!
-Classes that do NOT have the 'public' attribute can have a different name than the source file, but if we add the 'public' attribute, it is mandatory for the class name and the name of the source file containing the class to coincide.
-
-# Problem 2
-
-Write a Problema2 class that contains two methods (functions):
-
-A non-static method 'print' that receives a String argument and displays it.
-A 'main' method that calls the 'print()' function to display a constant string.
-IMPORTANT!
-The 'print' method will be called in 'main' as follows:
-
-Problema2 object = new Problema2(); // create a Problema2 object
-object.print("Test"); // call the print method
-
-
-# Problem 3
-
-Modify the class written in the previous exercise by defining two classes, each containing one method:
-
-A class for the 'main' method.
-A class for the 'print' method.
-Check if both classes in the file can be public. Call the 'print' method in the same way as in Problem 2!
-
-Modifying the previous program by creating two source files, each containing one of the above classes. Try to execute both classes.
-
-IMPORTANT!
-Two public classes cannot be defined in one file.
-
-# Problem 4
-
-Write a program to display all the arguments received on the command line.
-
-Note:
-Arguments can be passed as follows:
-
-If the program is run from NetBeans / Eclipse, follow the instructions at the beginning of the lab.
-If the program is run from the command line: 'java programname arg1 arg2 arg3'
-
-
-
-# Problem 5
-
-Create a class that includes a recursive (non-static) method for calculating the integer power of an integer and a method for displaying the result of the function, along with the result of the static 'Math.pow(base, exp)' function for validation. The class will contain a 'main' method in which the two previously defined methods will be tested.
-
-IMPORTANT!
-A static method of a class is called as:
-
-ClassName.staticMethodName(...)
-For example: 'Math.pow(...)'
-
-# Problem 6
-
-Implement a class with two methods:
-
-A non-static boolean method that checks if a given integer is prime.
-A 'main' method that checks the previous method for all natural numbers less than 20.
-
-
-
-# Problem 7
-
-Write a program to verify Goldbach's conjecture for the first n even numbers, by displaying all sums of two prime numbers through which an even number can be expressed. The variable n can be initialized with a constant value.
-
-Goldbach's Conjecture: Any even number can be decomposed as the sum of at least one pair of two prime numbers. Consider 1 as a prime number.
-
-To display an expression of the form a = b + c, write:
-
-System.out.println(a + " = " + b + " + " + c);
-Where a, b, and c are numeric variables of any type (short, int, long, float, double).
-
-# Problem 8
-
-Write a program to sort an array of numbers and perform binary search in this array using the static methods 'sort()' and 'binarySearch()' from the Arrays class. The array will contain randomly generated numbers using the 'random()' static method from the Math class, with a result of type double.
+Happy coding!
