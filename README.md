@@ -27,7 +27,8 @@ Each chapter folder contains a `README.md` file with specific instructions and e
 git clone https://github.com/abdulke96/java.git
 
 git checkout -b chapter1
-Contributing
+
+# Contributing
 Contributions are welcome! If you have additional chapters or improvements to existing chapters, please open an issue or submit a pull request.
 
 License
